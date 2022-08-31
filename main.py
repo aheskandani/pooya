@@ -14,7 +14,7 @@ import sqlite3
 import re
 from bs4 import BeautifulSoup
 
-bot_token = '5415345086:AAFsaAWlJcgMd0Wii1Z8UgzpgSrfSZM1ZWw'
+bot_token = '5415345086:AAHEY9DtAGNi6PeB-SwodCCtXfl-dd6uHGk'
 admin = 37087739
 
 #############################################
@@ -23,7 +23,7 @@ EXPECT_STATUS, EXPECT_USERNAME, EXPECT_PASSWORD, EXPECT_SUBMIT, EXPECT_BACK, EXP
 
 def start(update: Update, context: CallbackContext):
 	chat_id = update.effective_chat.id
-	text = ('به ربات پرتال دانشجویی خوش آمدید 🌹')
+	text = ('به ربات تلگرامی پرتال دانشجویی خوش آمدید 🌹')
 	update.message.reply_text(text, reply_markup=main_keyboard)
 
 
