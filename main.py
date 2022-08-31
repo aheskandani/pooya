@@ -14,7 +14,7 @@ import sqlite3
 import re
 from bs4 import BeautifulSoup
 
-bot_token = '5415345086:AAHEY9DtAGNi6PeB-SwodCCtXfl-dd6uHGk'
+bot_token = '5415345086:AAFsaAWlJcgMd0Wii1Z8UgzpgSrfSZM1ZWw'
 admin = 37087739
 
 #############################################
